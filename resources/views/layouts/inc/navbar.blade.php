@@ -59,6 +59,7 @@
        </div>
 
        <div class="header-main" id="navbar">
+
            <div class="container">
                <ul class="desktop-menu-category-list">
 
@@ -74,7 +75,7 @@
 
           <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
 
-          <button class="search-btn">
+          <button class="search-btn" style="height:40px;">
             <ion-icon name="search-outline"></ion-icon>
           </button>
 
@@ -84,9 +85,9 @@
                    @if (Route::has('login'))
                        @auth
                        @else
-                           <button class="action-btn">
+                           {{-- <button class="action-btn">
                                <a href="{{ route('register') }}" class="banner-btn">Become a seller</a>
-                           </button>
+                           </button> --}}
                        @endauth
                    @endif
                    <button class="action-btn">
@@ -101,6 +102,7 @@
                    @if (Route::has('login'))
                        <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                            @auth
+
                                <button class="action-btn" onclick="window.location.href='{{ url('dashboard') }}'">
                                    <ion-icon name="person-outline"></ion-icon>
                                </button>
@@ -117,7 +119,7 @@
                </div>
            </div>
        </div>
-<nav class="desktop-navigation-menu">
+<nav class="desktop-navigation-menu" >
 
       <div class="container">
 
@@ -128,7 +130,7 @@
           </li>
 
           <li class="menu-category">
-            <a href="#" class="menu-title">Categories</a>
+            <a href="#" class="menu-title">Shop</a>
 
             <div class="dropdown-panel">
 
@@ -157,16 +159,7 @@
                 <li class="panel-list-item">
                   <a href="#">Headphone</a>
                 </li>
-
-                <li class="panel-list-item">
-                  <a href="#">
-                    <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
-                      height="119">
-                  </a>
-                </li>
-
               </ul>
-
               <ul class="dropdown-panel-list">
 
                 <li class="menu-title">
@@ -191,12 +184,6 @@
 
                 <li class="panel-list-item">
                   <a href="#">Sunglasses</a>
-                </li>
-
-                <li class="panel-list-item">
-                  <a href="#">
-                    <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
-                  </a>
                 </li>
 
               </ul>
@@ -227,11 +214,6 @@
                   <a href="#">Bags</a>
                 </li>
 
-                <li class="panel-list-item">
-                  <a href="#">
-                    <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
-                  </a>
-                </li>
 
               </ul>
 
@@ -261,11 +243,6 @@
                   <a href="#">Microphone</a>
                 </li>
 
-                <li class="panel-list-item">
-                  <a href="#">
-                    <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
-                  </a>
-                </li>
 
               </ul>
 
@@ -273,107 +250,13 @@
           </li>
 
           <li class="menu-category">
-            <a href="#" class="menu-title">Men's</a>
-
-            <ul class="dropdown-list">
-
-              <li class="dropdown-item">
-                <a href="#">Shirt</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Shorts & Jeans</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Safety Shoes</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Wallet</a>
-              </li>
-
-            </ul>
+            <a href="#" class="menu-title">Help Center</a>
           </li>
 
           <li class="menu-category">
-            <a href="#" class="menu-title">Women's</a>
-
-            <ul class="dropdown-list">
-
-              <li class="dropdown-item">
-                <a href="#">Dress & Frock</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Earrings</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Necklace</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Makeup Kit</a>
-              </li>
-
-            </ul>
-          </li>
-
-          <li class="menu-category">
-            <a href="#" class="menu-title">Jewelry</a>
-
-            <ul class="dropdown-list">
-
-              <li class="dropdown-item">
-                <a href="#">Earrings</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Couple Rings</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Necklace</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Bracelets</a>
-              </li>
-
-            </ul>
-          </li>
-
-          <li class="menu-category">
-            <a href="#" class="menu-title">Perfume</a>
-
-            <ul class="dropdown-list">
-
-              <li class="dropdown-item">
-                <a href="#">Clothes Perfume</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Deodorant</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Flower Fragrance</a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="#">Air Freshener</a>
-              </li>
-
-            </ul>
-          </li>
-
-          <li class="menu-category">
-            <a href="#" class="menu-title">Blog</a>
-          </li>
-
-          <li class="menu-category">
-            <a href="#" class="menu-title">Hot Offers</a>
+                 <button class="action-btn">
+                               <a href="{{ route('register') }}" class="banner-btn">Become a seller</a>
+                           </button>
           </li>
 
         </ul>
@@ -383,8 +266,7 @@
     </nav>
 
     <div class="mobile-bottom-navigation">
-
-      <button class="action-btn" data-mobile-menu-open-btn>
+<button class="action-btn" data-mobile-menu-open-btn>
         <ion-icon name="menu-outline"></ion-icon>
       </button>
 
@@ -395,17 +277,12 @@
       </button>
 
       <button class="action-btn">
-        <ion-icon name="home-outline"></ion-icon>
-      </button>
-
-      <button class="action-btn">
         <ion-icon name="heart-outline"></ion-icon>
-
         <span class="count">0</span>
       </button>
 
-      <button class="action-btn" data-mobile-menu-open-btn>
-        <ion-icon name="grid-outline"></ion-icon>
+      <button class="action-btn">
+        <ion-icon name="person-outline"></ion-icon>
       </button>
 
     </div>
@@ -423,7 +300,7 @@
       <ul class="mobile-menu-category-list">
 
         <li class="menu-category">
-          <a href="#" class="menu-title">Home</a>
+          <a href="#" class="menu-title">About</a>
         </li>
 
         <li class="menu-category">
@@ -529,7 +406,6 @@
 
           <button class="accordion-menu" data-accordion-btn>
             <p class="menu-title">Perfume</p>
-
             <div>
               <ion-icon name="add-outline" class="add-icon"></ion-icon>
               <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
@@ -559,121 +435,37 @@
         </li>
 
         <li class="menu-category">
-          <a href="#" class="menu-title">Blog</a>
+          <a href="#" class="menu-title">Help Center</a>
         </li>
 
-        <li class="menu-category">
-          <a href="#" class="menu-title">Hot Offers</a>
-        </li>
-
+    <button class="action-btn">
+                               <a href="{{ route('register') }}" class="banner-btn">Become a seller</a>
+                           </button>
       </ul>
-
-      <div class="menu-bottom">
-
-        <ul class="menu-category-list">
-
-          <li class="menu-category">
-
-            <button class="accordion-menu" data-accordion-btn>
-              <p class="menu-title">Language</p>
-
-              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
-            </button>
-
-            <ul class="submenu-category-list" data-accordion>
-
-              <li class="submenu-category">
-                <a href="#" class="submenu-title">English</a>
-              </li>
-
-              <li class="submenu-category">
-                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
-              </li>
-
-              <li class="submenu-category">
-                <a href="#" class="submenu-title">Fren&ccedil;h</a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="menu-category">
-            <button class="accordion-menu" data-accordion-btn>
-              <p class="menu-title">Currency</p>
-              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
-            </button>
-
-            <ul class="submenu-category-list" data-accordion>
-              <li class="submenu-category">
-                <a href="#" class="submenu-title">USD &dollar;</a>
-              </li>
-
-              <li class="submenu-category">
-                <a href="#" class="submenu-title">EUR &euro;</a>
-              </li>
-            </ul>
-          </li>
-
-        </ul>
-
-        <ul class="menu-social-container">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
 
     </nav>
 
 
        <div class="mobile-bottom-navigation">
-           <button class="action-btn" data-mobile-menu-open-btn>
-               <ion-icon name="menu-outline"></ion-icon>
-           </button>
+     <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
 
-           <button class="action-btn">
-               <ion-icon name="bag-handle-outline"></ion-icon>
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
 
-               <span class="count">0</span>
-           </button>
+        <span class="count">0</span>
+      </button>
 
-           <button class="action-btn">
-               <ion-icon name="home-outline"></ion-icon>
-           </button>
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+        <span class="count">0</span>
+      </button>
 
-           <button class="action-btn">
-               <ion-icon name="heart-outline"></ion-icon>
+      <button class="action-btn">
+        <ion-icon name="person-outline"></ion-icon>
+      </button>
 
-               <span class="count">0</span>
-           </button>
-
-           <button class="action-btn" data-mobile-menu-open-btn>
-               <ion-icon name="grid-outline"></ion-icon>
-           </button>
        </div>
 
        <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
@@ -805,83 +597,9 @@
                        </li>
                    </ul>
                </li>
-
-               <li class="menu-category">
-                   <a href="#" class="menu-title">Blog</a>
-               </li>
-
-               <li class="menu-category">
-                   <a href="#" class="menu-title">Hot Offers</a>
-               </li>
+           <button class="action-btn">
+                               <a href="{{ route('register') }}" class="banner-btn">Become a seller</a>
+                           </button>
            </ul>
-
-           <div class="menu-bottom">
-               <ul class="menu-category-list">
-                   <li class="menu-category">
-                       <button class="accordion-menu" data-accordion-btn>
-                           <p class="menu-title">Language</p>
-
-                           <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
-                       </button>
-
-                       <ul class="submenu-category-list" data-accordion>
-                           <li class="submenu-category">
-                               <a href="#" class="submenu-title">English</a>
-                           </li>
-
-                           <li class="submenu-category">
-                               <a href="#" class="submenu-title">Espa&ntilde;ol</a>
-                           </li>
-
-                           <li class="submenu-category">
-                               <a href="#" class="submenu-title">Fren&ccedil;h</a>
-                           </li>
-                       </ul>
-                   </li>
-
-                   <li class="menu-category">
-                       <button class="accordion-menu" data-accordion-btn>
-                           <p class="menu-title">Currency</p>
-                           <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
-                       </button>
-
-                       <ul class="submenu-category-list" data-accordion>
-                           <li class="submenu-category">
-                               <a href="#" class="submenu-title">USD &dollar;</a>
-                           </li>
-
-                           <li class="submenu-category">
-                               <a href="#" class="submenu-title">EUR &euro;</a>
-                           </li>
-                       </ul>
-                   </li>
-               </ul>
-
-               <ul class="menu-social-container">
-                   <li>
-                       <a href="#" class="social-link">
-                           <ion-icon name="logo-facebook"></ion-icon>
-                       </a>
-                   </li>
-
-                   <li>
-                       <a href="#" class="social-link">
-                           <ion-icon name="logo-twitter"></ion-icon>
-                       </a>
-                   </li>
-
-                   <li>
-                       <a href="#" class="social-link">
-                           <ion-icon name="logo-instagram"></ion-icon>
-                       </a>
-                   </li>
-
-                   <li>
-                       <a href="#" class="social-link">
-                           <ion-icon name="logo-linkedin"></ion-icon>
-                       </a>
-                   </li>
-               </ul>
-           </div>
        </nav>
    </header>

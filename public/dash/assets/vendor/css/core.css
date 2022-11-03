@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
   --bs-blue: #007bff;
-  --bs-indigo: #6610f2;
+  --bs-indigo: rgb(42,162, 117);
   --bs-purple: rgb(42, 162, 117);
   --bs-pink: #e83e8c;
   --bs-red: #ff3e1d;
@@ -2186,7 +2186,7 @@ progress {
   color: #697a8d;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #d9dee3;
+  border: 2px solid #d9dee3;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;

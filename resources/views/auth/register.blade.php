@@ -1,4 +1,4 @@
-@extends('layouts.auth')
+{{-- @extends('layouts.auth')
 @section('content')
 
     <div class="container-xxl">
@@ -126,10 +126,10 @@
       </div>
     </div>
 
-@endsection
+@endsection --}}
 
 
-{{-- <x-guest-layout>
+ <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
@@ -192,4 +192,4 @@
             </div>
         </form>
     </x-auth-card>
-</x-guest-layout> --}}
+</x-guest-layout> 
