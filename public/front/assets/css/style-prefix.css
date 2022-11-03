@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 @codewithsadee 
+ * copyright 2022 @codewithsadee
  */
 
 /*-----------------------------------*\
@@ -57,7 +57,7 @@
   --border-radius-sm: 5px;
 
   /**
-   * transition 
+   * transition
    */
 
   --transition-timing: 0.2s ease;
@@ -210,7 +210,7 @@ body::-webkit-scrollbar-thumb:hover {
 \*-----------------------------------*/
 
 /**
- * overlay 
+ * overlay
  */
 
 .overlay {
@@ -234,7 +234,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /**
- * MODAL 
+ * MODAL
  */
 
 .modal {
@@ -418,7 +418,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /**
- * NOTIFICATION TOAST 
+ * NOTIFICATION TOAST
  */
 
 .notification-toast {
@@ -579,7 +579,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: var(--onyx);
   padding: 10px 15px;
   padding-right: 50px;
-  border: 1px solid var(--cultured);
+  border: 2px solid #2aa275;
   -webkit-border-radius: var(--border-radius-md);
   border-radius: var(--border-radius-md);
 }
@@ -2141,7 +2141,7 @@ footer {
 }
 
 /**
- * footer nav 
+ * footer nav
  */
 
 .footer-nav {
@@ -2280,7 +2280,7 @@ footer {
 
   :root {
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 1.875rem;
@@ -2361,7 +2361,7 @@ footer {
   }
 
   /**
-   * #PRODUCT 
+   * #PRODUCT
    */
 
   .product-grid {
@@ -2543,14 +2543,14 @@ footer {
 
   :root {
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 2.375rem;
   }
 
   /**
-   * #BASE 
+   * #BASE
    */
 
   html {
@@ -2558,7 +2558,7 @@ footer {
   }
 
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container {
@@ -2567,7 +2567,7 @@ footer {
   }
 
   /**
-   * #MODAL 
+   * #MODAL
    */
 
   .modal-content {
@@ -2594,7 +2594,7 @@ footer {
   }
 
   /**
-   * #HEADER 
+   * #HEADER
    */
 
   .header-main .container {
@@ -2609,7 +2609,7 @@ footer {
   }
 
   /**
-   * #BANNER 
+   * #BANNER
    */
 
   .slider-item {
@@ -2638,7 +2638,7 @@ footer {
   }
 
   /**
-   * #CATEGORY 
+   * #CATEGORY
    */
 
   .category-img-box {
@@ -2646,7 +2646,7 @@ footer {
   }
 
   /**
-   * #PRODUCT 
+   * #PRODUCT
    */
 
   .product-minimal {
@@ -2704,7 +2704,7 @@ footer {
   }
 
   /**
-   * #FOOTER 
+   * #FOOTER
    */
 
   .footer-nav .container {
@@ -2748,7 +2748,7 @@ footer {
 
   :root {
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 2.625rem;
@@ -2756,7 +2756,7 @@ footer {
   }
 
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container {
@@ -2764,7 +2764,7 @@ footer {
   }
 
   /**
-   * #NOTIFICATION TOAST 
+   * #NOTIFICATION TOAST
    */
 
   .notification-toast {
@@ -2773,7 +2773,7 @@ footer {
   }
 
   /**
-   * #HEADER 
+   * #HEADER
    */
 
   .header-social-container {
@@ -2855,7 +2855,8 @@ footer {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
+
   }
 
   .desktop-menu-category-list .menu-category:not(:nth-child(2)) {
@@ -3030,7 +3031,7 @@ footer {
   }
 
   /**
-   * #BANNER 
+   * #BANNER
    */
 
   .banner {
@@ -3059,7 +3060,7 @@ footer {
   }
 
   /**
-   * #CATEGORY 
+   * #CATEGORY
    */
 
   .category-item {
@@ -3072,7 +3073,7 @@ footer {
   }
 
   /**
-   * #PRODUCT 
+   * #PRODUCT
    */
 
   .product-container .container {
@@ -3158,7 +3159,7 @@ footer {
   }
 
   /**
-   * #TESTIMONIALS, CTA & SERVICE 
+   * #TESTIMONIALS, CTA & SERVICE
    */
 
   .testimonials-box {
@@ -3246,7 +3247,7 @@ footer {
 
 @media (min-width: 1200px) {
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container {
@@ -3376,7 +3377,7 @@ footer {
 
 @media (min-width: 1400px) {
   /**
-   * #BASE 
+   * #BASE
    */
 
   html {
@@ -3384,7 +3385,7 @@ footer {
   }
 
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container {
