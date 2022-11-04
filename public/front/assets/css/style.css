@@ -289,7 +289,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     top: 15px;
     right: 15px;
-    background: rgb(42, 162, 117);
+    background: #ff7519;
     color: var(--white);
     font-size: 16px;
     padding: 5px;
@@ -350,7 +350,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .btn-newsletter:hover {
-    background: rgb(42, 162, 117);
+    background: #ff7519;
 }
 
 /**
@@ -478,6 +478,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 10px 15px;
     padding-right: 50px;
     border: 1px solid var(--cultured);
+    -webkit-border-radius: var(--border-radius-md);
     border-radius: var(--border-radius-md);
 }
 
@@ -499,7 +500,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .search-btn:hover {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
 }
 
 .mobile-bottom-navigation {
@@ -527,7 +528,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .mobile-bottom-navigation .count {
-    background: #2aa275;
+    background: #ff7519;
     color: var(--white);
     position: absolute;
     top: 0;
@@ -571,7 +572,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .menu-top .menu-title {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     font-size: var(--fs-4);
     font-weight: var(--weight-600);
 }
@@ -745,7 +746,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .banner-subtitle {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     font-size: var(--fs-7);
     font-weight: var(--weight-500);
     text-transform: capitalize;
@@ -766,7 +767,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .banner-btn {
-    background: rgb(42, 162, 117);
+    background: #ff7519;
     color: var(--white);
     width: max-content;
     font-size: var(--fs-11);
@@ -840,7 +841,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .category-btn {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     font-size: var(--fs-9);
     font-weight: var(--weight-500);
     text-transform: capitalize;
@@ -1096,7 +1097,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-minimal .showcase-category:hover {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
 }
 
 .product-minimal .price-box {
@@ -1108,7 +1109,7 @@ body::-webkit-scrollbar-thumb:hover {
 .product-minimal .price {
     font-size: var(--fs-7);
     font-weight: var(--weight-700);
-    color: rgb(42, 162, 117);
+    color: #ff7519;
 }
 
 .product-minimal .price-box del {
@@ -1184,7 +1185,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-featured .price {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     font-weight: var(--weight-700);
 }
 
@@ -1194,7 +1195,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-featured .add-cart-btn {
-    background: rgb(42, 162, 117);
+    background: #ff7519;
     padding: 8px 15px;
     color: var(--white);
     font-weight: var(--fs-9);
@@ -1239,7 +1240,7 @@ body::-webkit-scrollbar-thumb:hover {
     left: 3px;
     height: 4px;
     width: 40%;
-    background: rgb(42, 162, 117);
+    background: #ff7519;
     border-radius: 4px;
 }
 
@@ -1363,7 +1364,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-grid .showcase-badge.pink {
-    background: rgb(42, 162, 117);
+    background: #ff7519;
 }
 
 .product-grid .showcase-actions {
@@ -1401,7 +1402,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-grid .showcase-category {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     font-size: var(--fs-9);
     font-weight: var(--weight-500);
     text-transform: uppercase;
@@ -1579,7 +1580,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .service-icon {
     font-size: 35px;
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     transition: var(--transition-timing);
 }
 
@@ -1634,7 +1635,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .blog-category {
     width: max-content;
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     font-size: var(--fs-8);
 }
 
@@ -1648,7 +1649,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .blog-title:hover {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
 }
 
 .blog-meta {
@@ -1677,7 +1678,7 @@ footer {
 }
 
 .footer-category-title {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
     font-size: var(--fs-6);
     font-weight: var(--weight-600);
     text-transform: uppercase;
@@ -1751,7 +1752,7 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgb(42, 162, 117);
+    background: #ff7519;
     width: 60px;
     height: 1px;
 }
@@ -1770,7 +1771,7 @@ footer {
 }
 
 .footer-nav-link:hover {
-    color: rgb(42, 162, 117);
+    color: #ff7519;
 }
 
 .footer-nav-item.flex {
@@ -2286,7 +2287,7 @@ footer {
     }
 
     .header-social-container .social-link:hover {
-        background: rgb(42, 162, 117);
+        background: #ff7519;
         color: var(--white);
     }
 
@@ -2307,7 +2308,7 @@ footer {
         position: absolute;
         top: -2px;
         right: -3px;
-        background: #2aa275;
+        background: #ff7519;
         color: var(--white);
         font-size: 12px;
         font-weight: var(--weight-500);
@@ -2343,7 +2344,7 @@ footer {
     }
 
     .desktop-menu-category-list .menu-category > .menu-title:hover {
-        color: rgb(42, 162, 117);
+        color: #ff7519;
     }
 
     .desktop-menu-category-list .menu-category > .menu-title::after {
@@ -2353,7 +2354,7 @@ footer {
         left: 0;
         width: 100%;
         height: 2px;
-        background: rgb(42, 162, 117);
+        background: #ff7519;
         transform: scaleX(0);
         transform-origin: left;
         transition: var(--transition-timing);
@@ -2408,7 +2409,7 @@ footer {
     }
 
     .panel-list-item a:hover {
-        color: rgb(42, 162, 117);
+        color: #ff7519;
     }
 
     .panel-list-item:not(:last-child) a {
@@ -2459,7 +2460,7 @@ footer {
     }
 
     .dropdown-list .dropdown-item a:hover {
-        color: rgb(42, 162, 117);
+        color: #ff7519;
     }
 
     .mobile-bottom-navigation {

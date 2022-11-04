@@ -10,6 +10,9 @@ Route::get('/', function () {
 Route::get('shop', function () {
     return view('shop');
 });
+Route::get('item', function () {
+    return view('item');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

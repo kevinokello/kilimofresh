@@ -1,353 +1,111 @@
 @extends('layouts.front')
 @section('content')
     <main>
-           <div class="banner">
-
-      <div class="container">
-
-        <div class="slider-container has-scrollbar">
-
-
-
-          <div class="slider-item">
-
-            <img src="front/assets/images/banner.avif" alt="new fashion summer sale" class="banner-img">
-
-            <div class="banner-content">
-              <h2 class="banner-title">Stay home & get
-
-your daily need's
-
-</h2>
-
-              <p class="banner-text">
-                Start You'r Daily Sopping with
-<b>Kilimofresh</b>
-              </p>
-
-              <a href="#" class="banner-btn">Shop now</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-        <div>
+        <br>
+        <div class="banner">
             <div class="container">
-                <div class="testimonials-box">
-                    <!--
-                - TESTIMONIALS
-              -->
-                    <div class="testimonial">
-                        <div class="sidebar has-scrollbar" data-mobile-menu>
-                            <br />
-                            <div class="product-showcase">
-                                <h3 class="showcase-heading">best sellers</h3>
-                                <div class="showcase-wrapper">
-                                    <div class="showcase-container">
-                                        <div class="showcase">
-                                            <a href="#" class="showcase-img-box">
-                                                <img src="front/assets/images/products/1.jpg" alt="baby fabric shoes"
-                                                    width="75" height="75" class="showcase-img" />
-                                            </a>
-
-                                            <div class="showcase-content">
-                                                <a href="#">
-                                                    <h4 class="showcase-title">baby fabric shoes</h4>
-                                                </a>
-
-                                                <div class="showcase-rating">
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                </div>
-
-                                                <div class="price-box">
-                                                    <del>$5.00</del>
-                                                    <p class="price">$4.00</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="showcase">
-                                            <a href="#" class="showcase-img-box">
-                                                <img src="front/assets/images/products/2.jpg" alt="men's hoodies t-shirt"
-                                                    class="showcase-img" width="75" height="75" />
-                                            </a>
-
-                                            <div class="showcase-content">
-                                                <a href="#">
-                                                    <h4 class="showcase-title">
-                                                        men's hoodies t-shirt
-                                                    </h4>
-                                                </a>
-                                                <div class="showcase-rating">
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star-half-outline"></ion-icon>
-                                                </div>
-                                                <div class="price-box">
-                                                    <del>$17.00</del>
-                                                    <p class="price">$7.00</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="showcase">
-                                            <a href="#" class="showcase-img-box">
-                                                <img src="front/assets/images/products/3.jpg" alt="girls t-shirt"
-                                                    class="showcase-img" width="75" height="75" />
-                                            </a>
-
-                                            <div class="showcase-content">
-                                                <a href="#">
-                                                    <h4 class="showcase-title">girls t-shirt</h4>
-                                                </a>
-                                                <div class="showcase-rating">
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star-half-outline"></ion-icon>
-                                                </div>
-
-                                                <div class="price-box">
-                                                    <del>$5.00</del>
-                                                    <p class="price">$3.00</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="showcase">
-                                            <a href="#" class="showcase-img-box">
-                                                <img src="front/assets/images/products/4.jpg" alt="woolen hat for men"
-                                                    class="showcase-img" width="75" height="75" />
-                                            </a>
-
-                                            <div class="showcase-content">
-                                                <a href="#">
-                                                    <h4 class="showcase-title">woolen hat for men</h4>
-                                                </a>
-                                                <div class="showcase-rating">
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                    <ion-icon name="star"></ion-icon>
-                                                </div>
-
-                                                <div class="price-box">
-                                                    <del>$15.00</del>
-                                                    <p class="price">$12.00</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--
-                - CTA
-              -->
-
-                    <div class="cta-container">
-                        <img src="front/assets/images/banner-1.avif" alt="summer collection" class="cta-banner" />
-
-                        <a href="#" class="cta-content">
-                            <h2 class="cta-title">Summer collection</h2>
-
-                            <p class="cta-text">Starting @ $10</p>
-
-                            <button class="discount">Shop now</button>
-                        </a>
-                    </div>
-
-                    <!--
-                - SERVICE
-              -->
-
-                    <div class="service">
-                        <h2 class="title">Our Services</h2>
-
-                        <div class="service-container">
-                            <a href="#" class="service-item">
-                                <div class="service-icon">
-                                    <ion-icon name="boat-outline"></ion-icon>
-                                </div>
-
-                                <div class="service-content">
-                                    <h3 class="service-title">Worldwide Delivery</h3>
-                                    <p class="service-desc">For Order Over $100</p>
-                                </div>
-                            </a>
-
-                            <a href="#" class="service-item">
-                                <div class="service-icon">
-                                    <ion-icon name="rocket-outline"></ion-icon>
-                                </div>
-
-                                <div class="service-content">
-                                    <h3 class="service-title">Next Day delivery</h3>
-                                    <p class="service-desc">UK Orders Only</p>
-                                </div>
-                            </a>
-
-                            <a href="#" class="service-item">
-                                <div class="service-icon">
-                                    <ion-icon name="call-outline"></ion-icon>
-                                </div>
-
-                                <div class="service-content">
-                                    <h3 class="service-title">Best Online Support</h3>
-                                    <p class="service-desc">Hours: 8AM - 11PM</p>
-                                </div>
-                            </a>
-
-                            <a href="#" class="service-item">
-                                <div class="service-icon">
-                                    <ion-icon name="arrow-undo-outline"></ion-icon>
-                                </div>
-
-                                <div class="service-content">
-                                    <h3 class="service-title">Return Policy</h3>
-                                    <p class="service-desc">Easy & Free Return</p>
-                                </div>
-                            </a>
-
-                            <a href="#" class="service-item">
-                                <div class="service-icon">
-                                    <ion-icon name="ticket-outline"></ion-icon>
-                                </div>
-
-                                <div class="service-content">
-                                    <h3 class="service-title">30% money back</h3>
-                                    <p class="service-desc">For Order Over $100</p>
-                                </div>
-                            </a>
+                <div class="slider-container has-scrollbar">
+                    <div class="slider-item">
+                        <img src="front/assets/images/banner.avif" alt="new fashion summer sale" class="banner-img">
+                        <div class="banner-content">
+                            <h2 class="banner-title">Stay home & get your daily need's
+                            </h2>
+                            <p class="banner-text">
+                                Start You'r Daily Sopping with
+                                <b>Kilimofresh</b>
+                            </p>
+                            <a href="#" class="banner-btn">Shop now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-       <div class="category">
-           <div class="container">
-               <div class="category-item-container has-scrollbar">
-                   <div class="category-item">
-                       <div class="category-img-box">
-                           <img src="front/assets/images/icons/dress.svg" alt="dress & frock" width="30" />
-                       </div>
 
-                       <div class="category-content-box">
-                           <div class="category-content-flex">
-                               <h3 class="category-item-title">Dress & frock</h3>
+        <div class="category">
+            <div class="container">
+            <div class="blog">
 
-                               <p class="category-item-amount">(53)</p>
-                           </div>
+            <div class="container">
 
-                           <a href="#" class="category-btn">Show all</a>
-                       </div>
-                   </div>
+                <div class="blog-container has-scrollbar">
 
-                   <div class="category-item">
-                       <div class="category-img-box">
-                           <img src="front/assets/images/icons/coat.svg" alt="winter wear" width="30" />
-                       </div>
+                    <div class="blog-card">
 
-                       <div class="category-content-box">
-                           <div class="category-content-flex">
-                               <h3 class="category-item-title">Winter wear</h3>
+                        <a href="#">
+                            <img src="front/assets/images/blog-1.jpg"
+                                alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300"
+                                class="blog-banner">
+                        </a>
 
-                               <p class="category-item-amount">(58)</p>
-                           </div>
+                        <div class="blog-content">
 
-                           <a href="#" class="category-btn">Show all</a>
-                       </div>
-                   </div>
-                   <div class="category-item">
-                       <div class="category-img-box">
-                           <img src="front/assets/images/icons/coat.svg" alt="winter wear" width="30" />
-                       </div>
+                            <a href="#" class="blog-category">Fashion</a>
+                        </div>
 
-                       <div class="category-content-box">
-                           <div class="category-content-flex">
-                               <h3 class="category-item-title">Winter wear</h3>
+                    </div>
 
-                               <p class="category-item-amount">(58)</p>
-                           </div>
+                    <div class="blog-card">
 
-                           <a href="#" class="category-btn">Show all</a>
-                       </div>
-                   </div>
-                   <div class="category-item">
-                       <div class="category-img-box">
-                           <img src="front/assets/images/icons/coat.svg" alt="winter wear" width="30" />
-                       </div>
+                        <a href="#">
+                            <img src="front/assets/images/blog-2.jpg"
+                                alt="Curbside fashion Trends: How to Win the Pickup Battle." class="blog-banner"
+                                width="300">
+                        </a>
 
-                       <div class="category-content-box">
-                           <div class="category-content-flex">
-                               <h3 class="category-item-title">Winter wear</h3>
+                        <div class="blog-content">
 
-                               <p class="category-item-amount">(58)</p>
-                           </div>
+                            <a href="#" class="blog-category">Clothes</a>
+                        </div>
 
-                           <a href="#" class="category-btn">Show all</a>
-                       </div>
-                   </div>
+                    </div>
 
-                   <div class="category-item">
-                       <div class="category-img-box">
-                           <img src="front/assets/images/icons/glasses.svg" alt="glasses & lens" width="30" />
-                       </div>
+                    <div class="blog-card">
 
-                       <div class="category-content-box">
-                           <div class="category-content-flex">
-                               <h3 class="category-item-title">Glasses & lens</h3>
+                        <a href="#">
+                            <img src="front/assets/images/blog-3.jpg"
+                                alt="EBT vendors: Claim Your Share of SNAP Online Revenue." class="blog-banner"
+                                width="300">
+                        </a>
 
-                               <p class="category-item-amount">(68)</p>
-                           </div>
+                        <div class="blog-content">
 
-                           <a href="#" class="category-btn">Show all</a>
-                       </div>
-                   </div>
+                            <a href="#" class="blog-category">Shoes</a>
 
-                   <div class="category-item">
-                       <div class="category-img-box">
-                           <img src="front/assets/images/icons/shorts.svg" alt="shorts & jeans" width="30" />
-                       </div>
+                        </div>
 
-                       <div class="category-content-box">
-                           <div class="category-content-flex">
-                               <h3 class="category-item-title">Shorts & jeans</h3>
+                    </div>
 
-                               <p class="category-item-amount">(84)</p>
-                           </div>
+                    <div class="blog-card">
 
-                           <a href="#" class="category-btn">Show all</a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
+                        <a href="#">
+                            <img src="front/assets/images/blog-4.jpg"
+                                alt="Curbside fashion Trends: How to Win the Pickup Battle." class="blog-banner"
+                                width="300">
+                        </a>
+
+                        <div class="blog-content">
+                            <a href="#" class="blog-category">Electronics</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+            </div>
+        </div>
         <div class="product-container">
             <div class="container">
                 <!--
-              - SIDEBAR
-            -->
+                          - SIDEBAR
+                        -->
 
                 <div class="product-box">
                     <!--
-                - PRODUCT MINIMAL
-              -->
+                            - PRODUCT MINIMAL
+                          -->
                     <div class="product-minimal">
                         <div class="product-showcase">
                             <h2 class="title">New Arrivals</h2>
@@ -446,8 +204,8 @@ your daily need's
                         </div>
                     </div>
                     <!--
-                - PRODUCT FEATURED
-              -->
+                            - PRODUCT FEATURED
+                          -->
                 </div>
             </div>
         </div>

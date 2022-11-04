@@ -25,19 +25,19 @@
                                             <mask id="mask-2" fill="white">
                                                 <use xlink:href="#path-1"></use>
                                             </mask>
-                                            <use fill="rgb(42, 162, 117)" xlink:href="#path-1"></use>
+                                            <use fill="#FF7519" xlink:href="#path-1"></use>
                                             <g id="Path-3" mask="url(#mask-2)">
-                                                <use fill="rgb(42, 162, 117)" xlink:href="#path-3"></use>
+                                                <use fill="#FF7519" xlink:href="#path-3"></use>
                                                 <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-3"></use>
                                             </g>
                                             <g id="Path-4" mask="url(#mask-2)">
-                                                <use fill="rgb(42, 162, 117)" xlink:href="#path-4"></use>
+                                                <use fill="#FF7519" xlink:href="#path-4"></use>
                                                 <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-4"></use>
                                             </g>
                                         </g>
                                         <g id="Triangle"
                                             transform="translate(19.000000, 11.000000) rotate(-300.000000) translate(-19.000000, -11.000000) ">
-                                            <use fill="rgb(42, 162, 117)" xlink:href="#path-5"></use>
+                                            <use fill="#FF7519" xlink:href="#path-5"></use>
                                             <use fill-opacity="0.2" fill="#FFFFFF" xlink:href="#path-5"></use>
                                         </g>
                                     </g>
@@ -69,49 +69,49 @@
                         <div data-i18n="Analytics">My Shops</div>
                     </a>
                 </li>
-                    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Attributes</div>
                     </a>
                 </li>
-                    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Categories</div>
                     </a>
                 </li>
-                    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Subcategories</div>
                     </a>
                 </li>
-                    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Tags</div>
                     </a>
                 </li>
-                    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Orders</div>
                     </a>
                 </li>
-                    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Pos</div>
                     </a>
                 </li>
-                    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Coupons</div>
                     </a>
                 </li>
-    <li class="menu-item">
+                <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Products</div>
