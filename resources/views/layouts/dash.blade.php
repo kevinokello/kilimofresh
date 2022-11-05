@@ -26,7 +26,11 @@
     <link rel="stylesheet" href="dash/assets/vendor/css/core.css" class="template-customizer-core-css" />
     <link rel="stylesheet" href="dash/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
     <link rel="stylesheet" href="dash/assets/css/demo.css" />
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="dash/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 

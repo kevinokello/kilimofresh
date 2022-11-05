@@ -1,4 +1,4 @@
-        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+<aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
             <div class="app-brand demo">
                 <a href="{{ url('/') }}" class="app-brand-link">
                     <span class="app-brand-logo demo">
@@ -52,9 +52,7 @@
                     <i class="bx bx-chevron-left bx-sm align-middle"></i>
                 </a>
             </div>
-
             <div class="menu-inner-shadow"></div>
-
             <ul class="menu-inner py-1">
                 <!-- Dashboard -->
                 <li class="menu-item active">
@@ -75,52 +73,12 @@
                         <div data-i18n="Analytics">Attributes</div>
                     </a>
                 </li>
-                <li class="menu-item">
-                    <a href="index.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Analytics">Categories</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="index.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Analytics">Subcategories</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="index.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Analytics">Tags</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="index.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Analytics">Orders</div>
-                    </a>
-                </li>
+
                 <li class="menu-item">
                     <a href="index.html" class="menu-link">
                         <i class="menu-icon tf-icons bx bx-home-circle"></i>
                         <div data-i18n="Analytics">Pos</div>
                     </a>
-                </li>
-                <li class="menu-item">
-                    <a href="index.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Analytics">Coupons</div>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="index.html" class="menu-link">
-                        <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                        <div data-i18n="Analytics">Products</div>
-                    </a>
-                </li>
-
-
-                <li class="menu-header small text-uppercase">
-                    <span class="menu-header-text">Pages</span>
                 </li>
                 <li class="menu-item">
                     <a href="javascript:void(0);" class="menu-link menu-toggle">

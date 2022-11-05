@@ -579,7 +579,7 @@ body::-webkit-scrollbar-thumb:hover {
     color: var(--onyx);
     padding: 10px 15px;
     padding-right: 50px;
-    border: 1px solid var(--cultured);
+    border: 2px solid #ff822e;
     -webkit-border-radius: var(--border-radius-md);
     border-radius: var(--border-radius-md);
 }
@@ -2884,7 +2884,7 @@ footer {
         left: 0;
         width: 100%;
         height: 2px;
-        background: #ff7519;
+        background: #ffffff;
         -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
         transform: scaleX(0);

@@ -43,7 +43,7 @@
   -->
 
    <header>
-       <div class="header-top">
+       {{-- <div class="header-top">
            <div class="container">
                <ul class="header-social-container"></ul>
 
@@ -56,7 +56,7 @@
 
                <div class="header-top-actions"></div>
            </div>
-       </div>
+       </div> --}}
 
        <div class="header-main">
 
@@ -67,7 +67,7 @@
                </a>
                <div class="header-search-container">
 
-                   <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+                   <input type="search" name="search" class="search-field" placeholder="Where are you located...">
 
                    <button class="search-btn" style="height:40px;">
                        <ion-icon name="search-outline"></ion-icon>
@@ -96,14 +96,14 @@
                    @if (Route::has('login'))
                        <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                            @auth
-
                                <button class="action-btn" onclick="window.location.href='{{ url('dashboard') }}'">
                                    <ion-icon name="person-outline"></ion-icon>
                                </button>
                            @else
-                               <button class="action-btn" onclick="window.location.href='{{ url('login') }}'">
-                                   <ion-icon name="person-outline"></ion-icon>
-                               </button>
+     <button class="action-btn">
+                               <a href="{{ url('login') }}" class="banner-btn">Login</a>
+                           </button>
+
 
                            @endauth
                        </div>
@@ -118,7 +118,7 @@
            <div class="container has-scrollbar">
 
                <ul class="desktop-menu-category-list">
-                
+
                    <li class="menu-category">
                        <a href="#" class="menu-title">About</a>
                    </li>
@@ -131,10 +131,6 @@
                    <li class="menu-category">
                        <a href="#" class="menu-title">Help Center</a>
                    </li>
-
-                   <button class="action-btn">
-                       <a href="{{ route('register') }}" class="banner-btn">Sell on kilimofresh</a>
-                   </button>
                </ul>
 
            </div>
@@ -313,10 +309,6 @@
                <li class="menu-category">
                    <a href="#" class="menu-title">Help Center</a>
                </li>
-
-               <button class="action-btn">
-                   <a href="{{ route('register') }}" class="banner-btn">Become a seller</a>
-               </button>
            </ul>
 
        </nav>
@@ -469,9 +461,7 @@
                        </li>
                    </ul>
                </li>
-               <button class="action-btn">
-                   <a href="{{ route('register') }}" class="banner-btn">Become a seller</a>
-               </button>
+ 
            </ul>
        </nav>
    </header>
