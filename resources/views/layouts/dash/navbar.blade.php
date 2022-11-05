@@ -17,8 +17,7 @@
                      <li class="nav-item navbar-dropdown dropdown-user dropdown">
                          <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);"
                              data-bs-toggle="dropdown">
-
-              <i class="bx bx-user me-2"></i>
+              Hi {{ Auth::user()->name }}<i class="bx bx-user me-2"></i>
                          </a>
                          <ul class="dropdown-menu dropdown-menu-end">
                              <li>
