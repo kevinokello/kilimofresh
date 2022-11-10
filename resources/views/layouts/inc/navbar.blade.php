@@ -62,7 +62,7 @@
 
            <div class="container">
                <a href="{{ url('/') }}" class="header-logo">
-                   <img src="https://s.alicdn.com/@img/tfs/TB1pDDmmF67gK0jSZPfXXahhFXa-2814-380.png" alt="Anon's logo"
+                   <img src="front/assets/images/logo.png" alt="Anon's logo"
                        width="120" height="36" />
                </a>
                <div class="header-search-container">
@@ -461,7 +461,7 @@
                        </li>
                    </ul>
                </li>
- 
+
            </ul>
        </nav>
    </header>
